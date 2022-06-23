@@ -9,11 +9,12 @@ import Footer from './greetingFooter';
 import MyButton from './button';
 import MyNav from './myNav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App';// import luôn ở trên trước 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-import App from './App';
+
 root.render(
     <React.Fragment>
-       
+       <App/>
         <MyNav/>
         <Greeting fullName="Nguyễn Trọng Duy"/>
         <br/>
@@ -29,3 +30,8 @@ root.render(
 )
 
 reportWebVitals();
+root.render(
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>
+);

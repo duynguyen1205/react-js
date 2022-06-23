@@ -1,7 +1,7 @@
 import { Card, CardImg, CardImgOverlay, CardText, CardBody,
     CardTitle } from 'reactstrap';
-
-class Menu extends Component {
+import React from 'react';
+class Menu extends React.Component {
 
     constructor(props) {
         super(props);
@@ -61,3 +61,4 @@ class Menu extends Component {
         );
     }
 }
+export default Menu;
