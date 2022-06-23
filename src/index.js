@@ -8,11 +8,12 @@ import Greeting from './greeting';
 import Footer from './greetingFooter';
 import MyButton from './button';
 import MyNav from './myNav';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
+import App from './App';
 root.render(
     <React.Fragment>
-
+       
         <MyNav/>
         <Greeting fullName="Nguyễn Trọng Duy"/>
         <br/>
