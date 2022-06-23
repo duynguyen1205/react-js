@@ -9,10 +9,10 @@ import Footer from './greetingFooter';
 import MyButton from './button';
 import MyNav from './myNav';
 const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<Greeting fullName='Nguyễn Trọng Duy'/>);
 
 root.render(
     <React.Fragment>
+
         <MyNav/>
         <Greeting fullName="Nguyễn Trọng Duy"/>
         <br/>
